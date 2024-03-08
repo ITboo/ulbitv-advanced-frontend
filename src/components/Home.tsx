@@ -1,7 +1,7 @@
 import React from "react";
-import classes from  './Counter.module.scss'
+import classes from  './Home.module.scss'
 
-const Counter = () => {
+const Home = () => {
   const [count, setCount] = React.useState(0);
   const increment = () => {
     setCount(count + 1);
@@ -18,4 +18,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default Home;
