@@ -1,8 +1,10 @@
 import { Link, Route, Routes } from "react-router-dom";
-import "./index.scss";
+
 import { HomeAsync } from "./components/Home.async";
 import { AboutAsync } from "./components/About.async";
 import { Suspense } from "react";
+
+import "./index.scss";
 
 const App = () => {
   return (
